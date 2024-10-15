@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Brave with Debugging",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:3001",
+      "webRoot": "${workspaceFolder}/src",
+      "runtimeExecutable": "/usr/bin/brave-browser",
+      "userDataDir": "${workspaceFolder}/.vscode/brave-profile",
+      "sourceMaps": true
+    }
+  ]
+}
